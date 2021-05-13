@@ -1,0 +1,227 @@
+{
+  "login": {
+    "pwd": "密码",
+    "username": "用户名",
+    "email": "邮箱",
+    "account": "账户",
+    "emailOrTel": "邮箱/电话",
+    "confirmPwd": "确认密码",
+    "verifyCode": "验证码",
+    "login": "登 录",
+    "register": "注 册",
+    "forgotPwd": "忘记密码",
+    "alreadyRegister": "已有账号，前往登录",
+    "verifyError": "验证码错误或者已失效！",
+    "accountOrPwdError": "账号或密码错误！",
+    "rememberMe": "记住我",
+    "rememberMeTip": "不要在不信任的设备上勾选"
+  },
+  "register": {
+    "emailRegistered": "该邮箱已被注册！",
+    "registerSuccess": "注册成功,正在跳转至登录界面。"
+  },
+  "forgetPasswd": {
+    "email": "邮箱",
+    "code": "验证码",
+    "newPasswd": "新密码",
+    "confirm": "确认密码",
+    "change": "修改密码"
+  },
+  "drawer": {
+    "myFavor": "我的收藏",
+    "myNotes": "我的笔记",
+    "recycleBin": "回收站",
+    "help": "帮助",
+    "collection": "收藏夹"
+  },
+  "appBar": {
+    "choose": "选择",
+    "cancel": "取消",
+    "theme": "主题",
+    "search": "搜索",
+    "add": "添加书签",
+    "bookmarkTitle": "标题",
+    "bookmarkUrl": "链接",
+    "otherFavorite": "选择其它收藏夹",
+    "back": "返回",
+    "enterBookmarkTitle": "输入书签标题",
+    "enterUrl": "输入网页连接 例：https://www.baidu.com",
+    "dialogClose": "取消",
+    "dialogAdd": "确定",
+    "personalCenter": {
+      "logOut": "退出登录",
+      "managementCenter": "管理中心",
+      "personalCenter": "个人中心"
+    },
+    "color": "主题颜色"
+  },
+  "card": {
+    "bookmark": {
+      "icon": {
+        "note": "笔记",
+        "edit": "编辑",
+        "qrCode": "二维码",
+        "top": "置顶",
+        "delete": "删除"
+      }
+    },
+    "note": {
+      "delete": "删除笔记",
+      "addNote": "添加笔记",
+      "icon": {
+        "edit": "编辑"
+      }
+    }
+  },
+  "recycleBin": {
+    "collection": "收藏夹",
+    "bookmark": "书签",
+    "note": "笔记",
+    "restore": "恢复"
+  },
+  "fieldError": {
+    "required": "此栏不能为空",
+    "email": "请输入有效的邮箱",
+    "confirmed": "两次输入的密码不一样",
+    "max": "不能超过length字符"
+  },
+  "collection": {
+    "edit": "编辑收藏夹",
+    "delete": "删除收藏夹",
+    "name": "名称",
+    "addFavorite": "添加收藏夹"
+  },
+  "bookmark": {
+    "time": "收藏时间",
+    "edit": "编辑书签"
+  },
+  "edit": "编辑",
+  "personal": {
+    "message": "我的信息",
+    "security": "账号安全",
+    "return": "返回主页"
+  },
+  "myinfo": {
+    "nickname": "昵称:",
+    "username": "用户名:",
+    "email": "邮箱:",
+    "avatar": "设置头像",
+    "save": "保存",
+    "logoff": "注销账号"
+  },
+  "security": {
+    "changePasswd": "更改密码",
+    "changeEmail": "更改邮箱",
+    "newPasswd": "新密码:",
+    "oldPasswd": "旧密码:",
+    "confirmPasswd": "确认密码:",
+    "newEmail": "新邮箱:",
+    "passwd": "密码:",
+    "code": " 邮箱验证码:",
+    "confirm": "保存",
+    "changeSuccess": "修改成功",
+    "changeError": "修改失败",
+    "sendSuccess": "发送成功",
+    "sendError": "发送失败"
+  },
+  "management": {
+    "settings": "系统设置",
+    "monitor": "系统监控",
+    "user": "用户管理",
+    "online": "在线状态",
+    "return": "返回主页"
+  },
+  "setSystem": {
+    "shutDown": "关闭系统",
+    "shutDownConfirm": "是否将本系统关闭？",
+    "shutDownSuccess": "系统已关闭",
+    "modify": "修改",
+    "info": "系统信息",
+    "name": "系统名称",
+    "version": "版本",
+    "serverPort": "服务器端口",
+    "register": "可注册新账号",
+    "db": {
+      "dbInfo": "数据库信息",
+      "name": "数据库名称",
+      "host": "主机",
+      "port": "端口",
+      "username": "用户名",
+      "passwd": "密码"
+    },
+    "email": {
+      "emailInfo": "邮箱服务器信息",
+      "close": "关闭",
+      "open": "开启"
+    },
+    "emailClosed": "邮箱服务器已关闭",
+    "emailOpened": "邮箱服务器已开启",
+    "changeServerPort": "修改服务器端口",
+    "changeDB": "修改数据库信息",
+    "changeEmail": "修改邮箱服务器信息",
+    "modifySuccess": "信息修改成功",
+    "modifyError": "信息修改失败，请重试"
+  },
+  "monitor": {
+    "name": "系统监控",
+    "attribute": "属性",
+    "value": "值"
+  },
+  "userManagement": {
+    "name": "用户管理",
+    "search": "搜索",
+    "newUser": "添加用户",
+    "addNew": "添加新用户",
+    "addSuccess": "用户创建成功",
+    "addError": "用户创建出错",
+    "userid": "用户ID",
+    "username": "用户名",
+    "email": "邮箱",
+    "use": "是否可用",
+    "actions": "操作",
+    "resetPasswd": "重置密码",
+    "resetSuccess": "密码修改成功",
+    "resetError": "密码修改失败",
+    "delete": "注销账号",
+    "restore": "恢复账号",
+    "setPasswd": "重置密码",
+    "newPasswd": "新密码",
+    "editInfo": "编辑信息",
+    "editSuccess": "信息修改成功",
+    "editError": "修改时出错",
+    "nickname": "昵称",
+    "logoffSuccess": "账号已成功注销，可在十五天之内恢复",
+    "logoffRestore": "账号恢复成功"
+  },
+  "onlineStatus": {
+    "name": "在线用户",
+    "offlineAll": "下线所有用户",
+    "isOfflineAll": "事都将所有用户下线?",
+    "offline": "下线该用户",
+    "isOffline": "是否将该用户下线?",
+    "successOffline": "成功下线该用户。",
+    "device": "登录设备",
+    "state": "登录状态",
+    "address": "地点",
+    "delete": "删除",
+    "successDelete": "Token已删除"
+  },
+  "systemInfo": {
+    "osName": "系统名称",
+    "osVersion": "系统版本",
+    "arch": "系统架构",
+    "maxMemory": "系统最大内存",
+    "currentMemory": "当前占用内存",
+    "jvmMaxMemory": "JVM最大内存",
+    "jvmCurrentMemory": "JVM当前占用内存",
+    "javaVersion": "Java版本",
+    "currentDir": "执行文件路径",
+    "confDir": "配置文件路径",
+    "currentPid": "进程号",
+    "hostIp": "主机ip"
+  },
+  "onlineInfo": {
+    "long": "长期",
+    "temporary": "临时"
+  }
+}

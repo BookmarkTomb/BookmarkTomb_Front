@@ -1,0 +1,30 @@
+const getters = {
+    showDrawer: state => state.drawer.showDrawer,
+    userToken: state => state.user.userToken,
+    username: state => state.user.username,
+    nickname: state => state.user.nickname,
+    email: state => state.user.email,
+    isAdmin: state => state.user.isAdmin,
+    userAvatar: state => state.user.userAvatar,
+    favor: state => state.bookmark.favor,
+    deletedBookmarkInfo: state => state.bookmark.deletedBookmarkInfo,
+    noteInfo: state => state.note.noteInfo,
+    deletedNoteInfo: state => state.note.deletedNoteInfo,
+    noteOfBookmark: state => state.note.noteOfBookmark,
+    userInfo: state => state.admin.userInfo,
+    onlineInfo: state => state.admin.onlineInfo,
+    systemInfo: state => state.admin.systemInfo,
+    userCollections: state => state.collection.userCollections,
+    bookmark: state => state.bookmark.bookmark,
+    deletedCollections: state => state.collection.deletedCollections,
+    newCollection: state => state.collection.newCollection,
+    treeItems: state => state.collection.treeItems,
+    selectedBM: state => state.bookmark.selectedBM,
+    showChose: state => state.bookmark.showChose,
+    name: state => state.publicInfo.name,
+    version: state => state.publicInfo.version,
+    systemColor: state => state.publicInfo.systemColor,
+    drawerSelected: state => state.bookmark.drawerSelected
+}
+
+export default getters

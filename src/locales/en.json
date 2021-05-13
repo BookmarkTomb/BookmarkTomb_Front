@@ -1,0 +1,227 @@
+{
+  "login": {
+    "pwd": "Password",
+    "username": "Username",
+    "email": "Email",
+    "account": "Account",
+    "emailOrTel": "Email/Tel",
+    "confirmPwd": "Confirm Password",
+    "verifyCode": "Verify Code",
+    "login": "Login",
+    "register": "Register",
+    "forgotPwd": "Forgot password",
+    "alreadyRegister": "Already registered. Login",
+    "verifyError": "The verify code is error or expired!",
+    "accountOrPwdError": "The account or password is error!",
+    "rememberMe": "Remember me",
+    "rememberMeTip": "Do not tick on untrusted devices!"
+  }, 
+  "register": {
+    "emailRegistered": "This email has been used!",
+    "registerSuccess": "Succeed in registration!"
+  },
+  "forgetPasswd": {
+    "email": "Email",
+    "code": "Verification code",
+    "newPasswd": "New password",
+    "confirm": "Confirm password",
+    "change": "Change password"
+  },
+  "drawer": {
+    "myFavor": "My Collection",
+    "myNotes": "My Notes",
+    "recycleBin": "Recycle Bin",
+    "help": "Help",
+    "collection": "Favorites"
+  },
+  "appBar": {
+    "choose": "Choose",
+    "cancel": "Cancel",
+    "theme": "Theme",
+    "search": "Search",
+    "add": "Add bookmark",
+    "bookmarkTitle": "Title",
+    "bookmarkUrl": "Url",
+    "otherFavorite": "Select a different favorite",
+    "back": "Back",
+    "enterBookmarkTitle": "Enter the bookmark title",
+    "enterUrl": "Enter a link to the web page example:https://www.baidu.com",
+    "dialogClose": "CLOSE",
+    "dialogAdd": "CONFIRM",
+    "personalCenter": {
+      "logOut": "Log Out",
+      "managementCenter": "Management",
+      "personalCenter": "Personal Center"
+    },
+    "color": "Theme color"
+  },
+  "card": {
+    "bookmark": {
+      "icon": {
+        "note": "Notes",
+        "edit": "Edit",
+        "qrCode": "QR Code",
+        "top": "Top",
+        "delete": "delete"
+      }
+    },
+    "note": {
+      "delete": "Delete Note",
+      "addNote": "Add Note",
+      "icon": {
+        "edit": "Edit"
+      }
+    }
+  },
+  "recycleBin": {
+    "collection": "Collection",
+    "bookmark": "Bookmark",
+    "note": "Note",
+    "restore": "Restore"
+  },
+  "fieldError": {
+    "required": "This field is required.",
+    "email": "This field must be a valid email.",
+    "confirmed": "This field must be the same as the password.",
+    "max": "This field must be {length} characters or less."
+  },
+  "collection": {
+    "edit": "Edit favorites",
+    "delete": "DELETE",
+    "name": "Name",
+    "addFavorite": "Add favorites"
+  },
+  "bookmark": {
+    "time": "Favorite time",
+    "edit": "Edit bookmark"
+  },
+  "edit": "Edit",
+  "personal": {
+    "message": "My Information",
+    "security": "Account Security",
+    "return": "Home Page"
+  },
+  "myinfo": {
+    "nickname": "Nickname:",
+    "username": "Username:",
+    "email": "Email:",
+    "avatar": "Avatar",
+    "save": "save",
+    "logoff": "logoff"
+  },
+  "security": {
+    "changePasswd": "Change Password",
+    "changeEmail": "Change Email",
+    "newPasswd": "New password:",
+    "oldPasswd": "Old password:",
+    "confirmPasswd": "Confirm password:",
+    "newEmail": "New email:",
+    "passwd": "Password:",
+    "code": " Verification code:",
+    "confirm": "save",
+    "changeSuccess": "The modification was successful",
+    "changeError": "The modification failed",
+    "sendSuccess": "The send was successful",
+    "sendError": "The send failed"
+  },
+  "management": {
+    "settings": "System Settings",
+    "monitor": "System Monitoring",
+    "user": "User Management",
+    "online": "Online Status",
+    "return": "Home Page"
+  },
+  "setSystem": {
+    "shutDown": "Shut down",
+    "shutDownConfirm": "Whether to shut down the system？",
+    "shutDownSuccess": "The system is turned off.",
+    "modify": "modify",
+    "info": "System Information",
+    "name": "Name",
+    "version": "Version",
+    "serverPort": "Server port",
+    "register": "Register enable",
+    "db": {
+      "dbInfo": "Database information",
+      "name": "Database name",
+      "host": "Host",
+      "port": "Port",
+      "username": "Username",
+      "passwd": "Password"
+    },
+    "email": {
+      "emailInfo": "Email server information",
+      "close": "close",
+      "open": "open"
+    },
+    "emailClosed": "The e-mail server is down.",
+    "emailOpened": "The e-mail server is turned on.",
+    "changeServerPort": "Modify the server port",
+    "changeDB": "Modify the database information",
+    "changeEmail": "Modify the email server information",
+    "modifySuccess": "The information was modified successfully.",
+    "modifyError": "The information modification failed, please try again."
+  },
+  "monitor": {
+    "name": "System Monitoring",
+    "attribute": "Attribute",
+    "value": "Value"
+  },
+  "userManagement": {
+    "name": "User management",
+    "search": "Search",
+    "newUser": "Add user",
+    "addNew": "Add a new user",
+    "addSuccess": "The user was successfully created.",
+    "addError": "The user creation failed.",
+    "userid": "User id",
+    "username": "Username",
+    "email": "Email",
+    "use": "Can be use",
+    "actions": "Actions",
+    "resetPasswd": "reset password",
+    "resetSuccess": "The password was modified successfully.",
+    "resetError": "Password modification failed.",
+    "delete": "Delete",
+    "restore": "Restore",
+    "setPasswd": "Set a new password",
+    "newPasswd": "New password",
+    "editInfo": "Edit information",
+    "editSuccess": "The information was modified successfully.",
+    "editError": "There was an error modifying it.",
+    "nickname": "Nickname",
+    "logoffSuccess": "The account has been successfully cancelled and can be restored within 15 days.",
+    "logoffRestore": "The account has been restored."
+  },
+  "onlineStatus": {
+    "name": "Online users",
+    "offlineAll": "Offline all",
+    "isOfflineAll": "Whether to take all users offline?",
+    "offline": "Offline the user",
+    "isOffline": "Whether to bring the user offline?",
+    "successOffline": "The user was successfully brought offline.",
+    "device": "Device",
+    "state": "State",
+    "address": "Address",
+    "delete": "delete",
+    "successDelete": "The token was deleted successful."
+  },
+  "systemInfo": {
+    "osName": "System name",
+    "osVersion": "System version",
+    "arch": "System architecture",
+    "maxMemory": "System memory",
+    "currentMemory": "Current memory",
+    "jvmMaxMemory": "JVM max memory",
+    "jvmCurrentMemory": "JVM current memory",
+    "javaVersion": "Java version",
+    "currentDir": "Execution file path",
+    "confDir": "Profile path",
+    "currentPid": "Process id",
+    "hostIp": "Host ip"
+  },
+  "onlineInfo": {
+    "long": "Long",
+    "temporary": "Temporary"
+  }
+}
