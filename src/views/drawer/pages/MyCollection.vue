@@ -1,5 +1,5 @@
 <template>
-  <v-main>
+  <v-main style="height: 100%">
     <template v-for="(item,index) in bookmark">
       <book-mark-card
           :key="item.id"
@@ -12,6 +12,9 @@
           :top="!!item.topTime"
       />
     </template>
+    <div class="noBM" v-show="bookmark.length === 0">
+      There are no bookmarks here.
+    </div>
   </v-main>
 </template>
 
@@ -38,12 +41,10 @@ export default {
   async created() {
     await this.$store.dispatch('getFavor', this.sortAndOrder)
     await this.$store.commit('REMOVE_SELECTED_BM')
-    // await this.$store.dispatch('getBookmark', this.getBmInCollectionParam)
   },
 
 
-  methods: {
-  }
+  methods: {}
 }
 
 </script>
@@ -55,7 +56,14 @@ export default {
   position: relative;
   display: inline-flex;
   flex-wrap: wrap;
-  // justify-content: start;
-  height: min-content;
+}
+
+.noBM {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: grey;
 }
 </style>

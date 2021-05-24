@@ -1,23 +1,27 @@
 <template>
-  <v-main>
+  <v-main style="height: 100%">
     <template v-for="(item,index) in bookmark">
       <book-mark-card
-        :key="item.id"
-        ref="bm"
-        :cardtitle="item.title"
-        :desc="item.createdTime"
-        :url="item.url"
-        :id='item.id'
-        :index="index"
-        :top="!!item.topTime"
+          :key="item.id"
+          ref="bm"
+          :cardtitle="item.title"
+          :desc="item.createdTime"
+          :url="item.url"
+          :id='item.id'
+          :index="index"
+          :top="!!item.topTime"
       />
     </template>
+    <div class="noBM" v-show="bookmark.length === 0">
+      There are no bookmarks here.
+    </div>
   </v-main>
 </template>
 
 <script>
-import { mapGetters } from 'vuex'
+import {mapGetters} from 'vuex'
 import BookMarkCard from "@/views/components/BookMarkCard"
+
 export default {
   components: {
     BookMarkCard,
@@ -43,8 +47,7 @@ export default {
     }
   },
 
-  methods: {
-  }
+  methods: {}
 }
 </script>
 
@@ -55,7 +58,15 @@ export default {
   position: relative;
   display: inline-flex;
   flex-wrap: wrap;
-  // justify-content: start;
-  height: min-content;
+  height: 100%;
+}
+
+.noBM {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: grey;
 }
 </style>

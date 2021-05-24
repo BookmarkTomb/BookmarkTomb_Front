@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="height: 100%">
     <bookmark-tomb-appbar/>
 
     <bookmark-tomb-drawer/>

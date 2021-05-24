@@ -6,6 +6,7 @@
     <v-card
         :elevation="selected.length === 0 ? 2 : 24"
         width="263"
+        max-height="340"
         class="ml-9 mt-4"
         outlined
         rounded="xl"
