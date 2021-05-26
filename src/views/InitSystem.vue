@@ -1,6 +1,6 @@
 <template>
   <div style="height: 100%; background: #F0F8FF;">
-    <v-card width="1000" class="mx-auto my-5" v-show="!initSuccess">
+    <v-card width="800" class="mx-auto my-5" v-show="!initSuccess">
       <v-card-title>The basic settings</v-card-title>
       <v-card-text>
         <v-divider/>
@@ -19,7 +19,7 @@
             <v-checkbox
                 v-model="initSystem.emailEnable"
                 dense
-                label="Turn on the e-mail service"
+                label="E-mail service"
             />
           </v-col>
           <v-col cols="4" class="ml-5">
@@ -27,7 +27,7 @@
                 v-model="initSystem.registerEnable"
                 dense
                 :disabled="disabled"
-                label="Can be registered"
+                label="Register service"
             />
           </v-col>
         </v-row>
@@ -46,17 +46,11 @@
           <v-col cols="2" :class="textFieldClass">
             <v-text-field v-model="initSystem.database.host" outlined dense/>
           </v-col>
-        </v-row>
-        <v-row
-            align="center"
-            justify="start"
-            no-gutters
-        >
-          <v-col cols="2">
+          <v-col cols="2" style="margin-left: 15%">
             Port：
           </v-col>
           <v-col cols="2" :class="textFieldClass">
-            <v-text-field v-model="initSystem.database.port" outlined dense placeholder="Default：27017"/>
+            <v-text-field v-model="initSystem.database.port" outlined dense placeholder="27017"/>
           </v-col>
         </v-row>
         <v-row
@@ -65,7 +59,7 @@
             no-gutters
         >
           <v-col cols="2">
-            Database name：
+            DB name：
           </v-col>
           <v-col cols="4" :class="textFieldClass">
             <v-text-field v-model="initSystem.database.dbname" outlined dense/>
@@ -97,7 +91,6 @@
         </v-row>
       </v-card-text>
       <v-card-title>E-mail server settings
-        <!--        <span style="color: red; font-size: smaller; margin-left: 20px;" v-show="!initSystem.emailEnable">Disabled</span>-->
       </v-card-title>
       <v-card-text>
         <v-divider/>
@@ -112,13 +105,7 @@
           <v-col cols="2" :class="textFieldClass">
             <v-text-field v-model="initSystem.email.host" outlined dense/>
           </v-col>
-        </v-row>
-        <v-row
-            align="center"
-            justify="start"
-            no-gutters
-        >
-          <v-col cols="2">
+          <v-col cols="2" style="margin-left: 15%">
             Port：
           </v-col>
           <v-col cols="2" :class="textFieldClass">
@@ -184,15 +171,11 @@
 </template>
 
 <script>
-// import {ValidationObserver} from "vee-validate";
-// import VTextFieldWithValidation from "@/views/components/VTextFieldWithValidation";
 
 import {mapGetters} from "vuex";
 
 export default {
   components: {
-    // ValidationObserver,
-    // VTextFieldWithValidation
   },
 
   data: () => ({
